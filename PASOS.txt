@@ -1,1 +1,15 @@
-PASOS
+PASOS PARA CREAR REPOSITORIO Y CLONAR
+
+Particularmente, decidí primero crear el reposiorio en GitHub y luego clonarlo, en lugar de crear el repositorio local y clonarlo en la plataforma.
+
+
+1) Crear una cuenta en GitHub.
+2) Crear repositorio en GitHub con el archivo README.
+3) Dirigirse a la IDE y abrir la Terminal. En este punto se debe dirigir a la ruta de la carpeta donde quiero clonar el repositorio.
+4) Clonar el repositorio con el comando $ git clone https://github.com/AgustinCz/Curso-Java.git
+5) Usando la terminal, me dirijo a la carpeta que se creó con el nombre del repositorio usando el comando $ cd.
+6) Configurar el nombre de usuario con el comando $ git config --global user.name "AgustinCz" .
+7) Configurar el email con el comando $ git config --global user.email "carrizo.nahuel.a@gmail.com".
+8) Crear un archivo. En mi caso, creé el archivo "PASOS.txt".
+9) Usar el comando $ git add, para agregar el archivo; y luego el comando $ git commit -m, para guardar el archivo.
+10) Finalmente, usar el comando $ git push, para enviar los cambios a GitHub. 
